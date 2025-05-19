@@ -1,0 +1,11 @@
+1) Um ViewGroup é um contêiner em Android que organiza e estrutura várias Views (componentes de interface). Ele permite agrupar Views, determinar seu layout (como LinearLayout, RelativeLayout ou ConstraintLayout) e gerenciar eventos de interação. Além disso, facilita a criação de hierarquias complexas de Views, melhora a eficiência com a reciclagem de Views em listas, e é essencial para a construção de interfaces de usuário bem organizadas e interativas.
+
+2) As constantes match_parent e wrap_content em Android definem como uma View se ajusta ao espaço disponível. match_parent faz a View ocupar todo o espaço do contêiner pai, enquanto wrap_content faz a View ocupar apenas o espaço necessário para exibir seu conteúdo.
+
+3) O LinearLayout organiza seus elementos filhos em uma única direção. Com orientação vertical, os filhos são empilhados de cima para baixo, e com orientação horizontal, são dispostos lado a lado, da esquerda para a direita. Se a orientação não for especificada, o padrão é vertical.
+
+4) As principais propriedades que controlam o comportamento dos elementos dentro de um LinearLayout são layout_weight e layout_gravity. layout_weight determina como o espaço restante é distribuído entre os filhos, permitindo que uma View com um peso maior ocupe mais espaço. Já layout_gravity define como uma View é alinhada dentro do seu espaço, como centralizada ou alinhada à direita. Em resumo, layout_weight distribui o espaço entre Views, enquanto layout_gravity controla o alinhamento de cada uma.
+
+7) Para ajustar o código basta adicionar android:orientation="vertical" ao elemento LinearLayout para garantir que os textos sejam exibidos um abaixo do outro (em vez de lado a lado, que seria o padrão com a orientação horizontal).
+
+8)
